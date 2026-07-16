@@ -1,0 +1,6 @@
+{
+  "name": "UmemePay",
+  "description": "Automated, friction-free prepaid electricity purchasing and token delivery for Kenya, integrated with Safaricom M-Pesa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
