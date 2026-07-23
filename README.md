@@ -18,3 +18,12 @@ View your app in AI Studio: https://ai.studio/apps/ea9c3da5-5e29-49f7-98bf-658d3
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+<<<<<<< HEAD
+=======
+
+
+
+
+
+git remote add origin https://github.com/moraaruth/kplctokenpurchase.git
+>>>>>>> fd2564db3fa91723a38d48ca65c048a37de1fec1
