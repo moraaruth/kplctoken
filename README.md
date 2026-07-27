@@ -1,2 +1,23 @@
 # kplctoken
 ## This middleware acts as an authentication gate: it checks each applicable request, allows public routes and static resources through, redirects unauthenticated users to the login page while remembering where they wanted to go, and lets authenticated users continue to the requested page. One thing worth fixing is the line pathname.match(/.*(.*)$/), which appears to be an incorrect regular expression. It should likely be something like pathname.match(/\..*$/) if the goal is to skip requests for static files
+
+## User requests /dashboard
+ ##         │
+  ##        ▼
+## Middleware runs
+     ##    │
+    ##    ▼
+## Check auth()
+    ##       │
+    ##  ┌────┴────┐
+    ##  │         │
+## Session     No Session
+## exists         │
+   ##  │         ▼
+    ##  │    Create /login?callbackUrl=/dashboard
+    ##  │         │
+    ##  │         ▼
+     ## │   Redirect to /login
+    ##  │
+   ##   ▼
+## Continue to /dashboard
