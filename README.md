@@ -56,3 +56,5 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ### router.replace()
 ### router.back()
 ### router.refresh()
+
+## onClick
