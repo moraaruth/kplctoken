@@ -49,3 +49,5 @@ The application is configured to run in **React Strict Mode**, which helps ident
 # useRouter
 ## import { useRouter } from "next/navigation";
 ## This hook allows you to navigate between pages programmatically.Instead of the user clicking a link, your code can tell the browser where to go.
+# Creating the router
+## const router = useRouter();
