@@ -36,3 +36,12 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ## Adding "use client" tells Next.js:
 
 ## "Render this component in the browser because it uses client-side features."
+
+# import Image from "next/image";
+## Imports Next.js' optimized Image component.
+## Benefits:
+
+## Faster loading
+## Automatic optimization
+## Lazy loading
+## Responsive images
