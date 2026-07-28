@@ -52,3 +52,7 @@ The application is configured to run in **React Strict Mode**, which helps ident
 # Creating the router
 ## const router = useRouter();
 ## This creates a router object.Think of it as a navigation controller.It provides methods such as:
+### router.push()
+### router.replace()
+### router.back()
+### router.refresh()
