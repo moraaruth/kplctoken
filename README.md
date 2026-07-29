@@ -59,3 +59,7 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 ## onClick
 ### onClick={() => router.push("/feedback/create")}
+
+# Helper Functions
+
+## Instead of repeating logic everywhere, small helper functions are created.
