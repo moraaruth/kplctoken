@@ -85,3 +85,8 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 # Pagination
 ## If there are 12 feedback ↓ Page 1 1-4 ↓ Page 2 5-8 ↓ Page 3 9-12
+
+# Desktop Table
+## On larger screens the component renders a table.
+
+## Columns include:
