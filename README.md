@@ -84,3 +84,4 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ## The filtered list is calculated with React.useMemo(), which avoids recalculating unless the relevant data changes, improving performance.
 
 # Pagination
+## If there are 12 feedback ↓ Page 1 1-4 ↓ Page 2 5-8 ↓ Page 3 9-12
