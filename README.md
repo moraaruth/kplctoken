@@ -66,3 +66,6 @@ The application is configured to run in **React Strict Mode**, which helps ident
 # Helper Functions
 
 ## Instead of repeating logic everywhere, small helper functions are created.
+
+# Loading Spinner
+## When data is still loading,instead of showing a blank page
