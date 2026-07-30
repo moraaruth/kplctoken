@@ -74,3 +74,9 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ## At the top, the component calculates using array filtering.
 
 # Filtering
+## The page filters feedback by:
+
+### Active tab
+### Search text
+### Status
+### Area
