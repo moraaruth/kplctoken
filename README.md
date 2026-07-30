@@ -90,3 +90,10 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ## On larger screens the component renders a table.
 
 ## Columns include:
+### Feedback ID
+### Category
+### Raised By
+### Tribe Lead
+### Status
+### Date
+### Action
