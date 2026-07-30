@@ -80,3 +80,5 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ### Search text
 ### Status
 ### Area
+
+## The filtered list is calculated with React.useMemo(), which avoids recalculating unless the relevant data changes, improving performance.
