@@ -72,3 +72,5 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 # Statistics Cards
 ## At the top, the component calculates using array filtering.
+
+# Filtering
