@@ -69,3 +69,6 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 # Loading Spinner
 ## When data is still loading,instead of showing a blank page
+
+# Statistics Cards
+## At the top, the component calculates using array filtering.
