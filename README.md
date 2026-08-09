@@ -110,3 +110,5 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 ### // Pretty-print with indentation
 ### console.log(JSON.stringify(obj, null, 2));
+
+# JSON.parse()
