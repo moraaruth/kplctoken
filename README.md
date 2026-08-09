@@ -113,3 +113,10 @@ The application is configured to run in **React Strict Mode**, which helps ident
 
 # JSON.parse()
 ## Converts a JSON string into a JavaScript object (deserialization).
+### const jsonString = '{"name":"Alice","age":25,"skills":["JS","Python"]}';
+### try {
+  ###  const obj = JSON.parse(jsonString);
+  ###  console.log(obj.name); // Output: Alice
+### } catch (error) {
+   ### console.error("Invalid JSON:", error.message);
+### }
