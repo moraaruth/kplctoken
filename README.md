@@ -102,3 +102,11 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ## import { ApolloClient, createHttpLink } from "@apollo/client";
 # JSON.stringify()
 ## Converts a JavaScript object or array into a JSON string (serialization).
+
+### const obj = { name: "Alice", age: 25, skills: ["JS", "Python"] };
+### const jsonString = JSON.stringify(obj);
+### console.log(jsonString); 
+### // Output: {"name":"Alice","age":25,"skills":["JS","Python"]}
+
+### // Pretty-print with indentation
+### console.log(JSON.stringify(obj, null, 2));
