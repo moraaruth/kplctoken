@@ -101,3 +101,4 @@ The application is configured to run in **React Strict Mode**, which helps ident
 # ApolloClient
 ## import { ApolloClient, createHttpLink } from "@apollo/client";
 # JSON.stringify()
+## Converts a JavaScript object or array into a JSON string (serialization).
