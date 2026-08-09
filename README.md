@@ -112,3 +112,4 @@ The application is configured to run in **React Strict Mode**, which helps ident
 ### console.log(JSON.stringify(obj, null, 2));
 
 # JSON.parse()
+## Converts a JSON string into a JavaScript object (deserialization).
